@@ -1,0 +1,16 @@
+{
+  "name": "figma-code-connect-test",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "figma:connect": "npx figma connect publish"
+  },
+  "dependencies": {
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  },
+  "devDependencies": {
+    "@figma/code-connect": "^1.0.0",
+    "typescript": "^5.7.0"
+  }
+}
