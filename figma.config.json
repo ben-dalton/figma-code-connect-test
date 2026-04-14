@@ -6,7 +6,7 @@
       "src/*": ["src/*"]
     },
     "importPaths": {
-      "src/components/*": "@components/*"
+      "src/components/*": "@cloudzero/design-system"
     }
   }
 }

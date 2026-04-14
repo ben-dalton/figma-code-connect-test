@@ -1,23 +1,9 @@
-import React from 'react';
-
-export interface ButtonProps {
-  variant?: 'primary' | 'secondary' | 'ghost';
-  size?: 'sm' | 'md' | 'lg';
-  disabled?: boolean;
-  icon?: React.ReactNode;
-  children: React.ReactNode;
-  onClick?: () => void;
-}
-
-export function Button({ variant = 'primary', size = 'md', disabled, icon, children, onClick }: ButtonProps) {
-  return (
-    <button
-      className={`btn btn-${variant} btn-${size}`}
-      disabled={disabled}
-      onClick={onClick}
-    >
-      {icon && <span className="btn-icon">{icon}</span>}
-      {children}
-    </button>
-  );
-}
+/**
+ * Button is Chakra UI's Button, re-exported via @cloudzero/design-system.
+ * No custom wrapper — consumers import directly:
+ *
+ *   import { Button } from '@cloudzero/design-system'
+ *
+ * This file exists for Code Connect mapping purposes only.
+ */
+export { Button, type ButtonProps } from '@chakra-ui/react'
